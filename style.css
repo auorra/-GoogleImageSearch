@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+/****************TOP NAVIGATION**********************/
+
+.myButton {
+	box-shadow: inset 0px -3px 7px 0px #29bbff;
+	background: linear-gradient(top,#4387fd,#4683ea);
+	background: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	outline: none;
+	display: inline-block;
+	color:#fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+	line-height: 28px;
+}
+
+#nav-bar {
+	position: fixed;
+	right: 25px;
+	top: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+.nav-list a {
+	padding: 0px 12px;
+	text-decoration: none;
+}
+
+.nav-list a:hover {
+	text-decoration: none;
+}
+
+/*********************GOOGLE IMAGE*********************/
+
+img {
+	margin-top: 200px;
+}
+
+/************************ICON AND INPUT*****************/
+
+
+.has-search .form-control {
+	padding-left: 2.800rem;
+	border-radius: 25px;
+	border: 0 1px 6px rgba(32,33,36,.28);
+	border-color: lightgray;
+	padding-right: 150px;
+	height: 45px;
+	color: black;
+}
+
+.has-search .form-control:active,
+.has-search .form-control:focus,
+.has-search .form-control:hover {
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+
+}
+
+/******************LEFT SEARCH ICON*******************/
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	padding-top: 5px;
+	font-size: small;
+	text-align: center;
+	text-indent: 10px;
+	pointer-events: none;
+	color: gray;
+}
+
+/*******RIGHT ICONS*********/
+
+
+.text-right a {
+	position: relative;
+	bottom: 41px;
+	padding-right: 5px;
+}
+
+.text-right i  {
+	padding: 10px;
+	font-size: 1.28rem;
+}
+
+/********RIGHT SEARCH ICON**********/
+
+.text-right .fa-search {
+	color: rgb(12, 113, 207);
+	font-size: 0.95rem;
+	margin-right: 5px;
+}
+
+#search-icon {
+	margin-bottom: 12px;
+}
+
+/********CAMERA ICON*********/
+
+.fa-camera {
+	color: gray;
+}
+
+/*****************SEARCH BAR***************/
+
+.main {
+	width: 550px;
+	margin: 25px auto;
+}
+
+/****************FOOTER******************/
+
+.navbar {
+	background-color: #f2f2f2;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 25px;
+	border-top: 1px solid #dadce0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	font-family: arial, sans-serif;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+/*************canada navbar************/
+
+.navbar2 {
+	background-color: #f2f2f2;
+	overflow: hidden;
+	position: fixed;
+	bottom: 43px;
+	line-height: 40px;
+	border-top: 1px solid #dadce0;
+	width: 100%;
+	padding-left: 15px;
+}
+
+.navbar2 a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	font-family: arial, sans-serif;
+	padding: 10px;
+	font-size: 14px;
+
+}
+
+.navbar2 a:hover {
+	text-decoration: underline;
+}
