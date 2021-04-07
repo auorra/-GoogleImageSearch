@@ -11,7 +11,6 @@ body {
 /****************TOP NAVIGATION**********************/
 
 .myButton {
-	box-shadow: inset 0px -3px 7px 0px #29bbff;
 	background: linear-gradient(top,#4387fd,#4683ea);
 	background: #4285f4;
 	border: 1px solid #4285f4;
@@ -20,6 +19,7 @@ body {
 	display: inline-block;
 	color:#fff;
 	font-size: 13px;
+	letter-spacing: .25px;
 	font-weight: bold;
 	text-decoration: none;
 	cursor: default;
